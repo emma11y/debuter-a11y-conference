@@ -5756,6 +5756,11 @@ fieldset {
   padding: 1em;
 }
 
+.twitter-tweet span,
+.twitter-tweet a {
+  font-size: 75%;
+}
+
 .twitter-tweet::before {
   content: '';
   height: 35px;
@@ -5876,4 +5881,23 @@ fieldset {
     height: 125px !important;
     max-height: none !important;
   }
+}
+
+.dcube-inside-title {
+  height: 100%;
+}
+
+.dcube-inside-title > .title {
+  margin-top: -2em;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.dcube-inside-title h3,
+.dcube-inside-title h4 {
+  display: inline;
+}
+
+.dcube-inside-title h3 {
+  font-size: 180%;
 }
