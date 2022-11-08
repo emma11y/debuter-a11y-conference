@@ -449,8 +449,9 @@
                         <ul>
                           <li>
                             Les personnes sourdes et malentendantes ne peuvent
-                            pas comprendre ce qui est dit sur les vidéos d’où la
-                            nécessité de sous-titrer les vidéos.
+                            pas comprendre ce qui est dit sur les vidéos ou
+                            podcasts d’où la nécessité de sous-titrer les vidéos
+                            ou de transcrire les podcasts.
                           </li>
                         </ul>
                       </li>
@@ -995,25 +996,25 @@
                 >
                   <div class="dcube-block">
                     <ul>
-                      <li>
+                      <li class="dcube-margin-b15">
                         <b>Ne supprimez pas</b> le focus mis par défaut depuis
                         le CSS : <code>a { outline: none; }</code>. Autrement
                         laissez-le <code>a { outline: 0; }</code>
                       </li>
-                      <li>
+                      <li class="dcube-margin-b15">
                         Si vous le supprimez, proposez
                         <b>un style alternatif</b> (ci-contre l'image) en
                         mettant en valeur les liens et boutons de manière
                         <b>visible</b> en CSS avec <code>:focus</code> et
                         <code>:hover</code>
                       </li>
-                      <li>
+                      <li class="dcube-margin-b15">
                         Vérifiez que les menus et ses sous-menus, les champs,
                         les liens et les boutons soient
                         <b>accessibles</b> depuis la touche <code>TAB</code> du
                         clavier.
                       </li>
-                      <li>
+                      <li class="dcube-margin-b15">
                         Vérifiez que le lecteur d'écran restitue bien les
                         informations des liens et des boutons.
                       </li>
@@ -1064,42 +1065,10 @@
                         id="alt-description-lecteur-ecran-3"
                         class="content-to-toggle is-hidden dcube-text-small alignleft"
                       >
-                        <div><span>Accueil</span></div>
-                        <div><span>titre niveau 1</span></div>
-                        <div><span>Liste des articles</span></div>
-                        <div><span>titre niveau 2</span></div>
-                        <div>
-                          <span
-                            >Le passage de
-                            <span lang="la">Lorem Ipsum standard</span>, utilisé
-                            depuis 1500</span
-                          >
-                        </div>
-                        <div>
-                          <span lang="la"
-                            >Lorem ipsum dolor sit amet, consectetur adipsicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.</span
-                          >
-                        </div>
-                        <div><span>lien</span></div>
-                        <div><span>Lire la suite</span></div>
-                        <div><span>titre niveau 2</span></div>
-                        <div>
-                          <span
-                            >Un autre passage de
-                            <span lang="la">Lorem Ipsum standard</span></span
-                          >
-                        </div>
-                        <div>
-                          <span lang="la"
-                            >Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span
-                          >
-                        </div>
-                        <div><span>lien</span></div>
-                        <div><span>Lire la suite</span></div>
+                        <p>Lire la suite lien</p>
+                        <p>Lire la suite lien</p>
+                        <p>Lire la suite lien</p>
+                        <p>Lire la suite lien</p>
                       </div>
                     </div>
                     <p class="alignleft dcube-margin-t15">
@@ -1162,53 +1131,24 @@
                         id="alt-description-lecteur-ecran-4"
                         class="content-to-toggle is-hidden dcube-text-small alignleft"
                       >
-                        <div><span>Accueil</span></div>
-                        <div><span>titre niveau 1</span></div>
-                        <div><span>Liste des articles</span></div>
-                        <div><span>titre niveau 2</span></div>
-                        <div>
-                          <span
-                            >Le passage de
-                            <span lang="la">Lorem Ipsum</span> standard, utilisé
-                            depuis 1500</span
-                          >
-                        </div>
-                        <div>
-                          <span lang="la"
-                            >Lorem ipsum dolor sit amet, consectetur adipsicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.</span
-                          >
-                        </div>
-                        <div><span>lien</span></div>
-                        <div>
-                          <span
-                            >Lire la suite du passage de
-                            <span lang="la">Lorem Ipsum</span> standard -
-                            Nouvelle fenêtre</span
-                          >
-                        </div>
-                        <div><span>titre niveau 2</span></div>
-                        <div>
-                          <span
-                            >Un autre passage de
-                            <span lang="la">Lorem Ipsum standard</span></span
-                          >
-                        </div>
-                        <div>
-                          <span lang="la"
-                            >Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span
-                          >
-                        </div>
-                        <div><span>lien</span></div>
-                        <div>
-                          <span
-                            >Lire la suite d'un autre passage de
-                            <span lang="la">Lorem Ipsum</span> standard</span
-                          >
-                        </div>
+                        <p>
+                          Lire la suite lien Lire la suite du passage de
+                          <span lang="la">Lorem Ipsum standard</span>en latin
+                          (Nouvelle fenêtre)
+                        </p>
+                        <p>
+                          Lire la suite lien Lire la suite d'un autre passage de
+                          <span lang="la">Lorem Ipsum standard</span> en latin
+                        </p>
+                        <p>
+                          Lire la suite lien Lire la suite de l'article sur
+                          l'accessibilité
+                        </p>
+
+                        <p>
+                          Lire la suite lien Lire la suite de l'article sur le
+                          RGAA
+                        </p>
                       </div>
                     </div>
                     <p class="alignleft dcube-margin-t15">
@@ -1426,7 +1366,7 @@
                   class="dcube-page-half-vertical_col dcube-align-center dcube-bgcolor-c2"
                 >
                   <div class="dcube-block">
-                    <p>
+                    <p class="dcube-margin-b15">
                       Attention de ne pas utiliser n'importe comment le
                       <code>tabindex</code>
                     </p>
@@ -1649,20 +1589,7 @@
                   class="dcube-page-half-vertical_col dcube-align-center dcube-bgcolor-c0"
                 >
                   <div class="dcube-block">
-                    <!--  <p>
-                    L'attribut <code>role</code> et ses valeurs permettent de
-                    nous donner des informations sur le but de l'élément en
-                    question.
-                  </p>
-                  <p>
-                    Grâce à ces rôles, les lecteurs d'écrans détectent, au
-                    chargement de la page, <strong>immédiatement</strong> la
-                    navigation ou les navigations, la bannière, le contenu
-                    principal, la zone de recherche et le pied de page.
-                  </p>-->
-
                     <img
-                      style="max-height: 100% !important"
                       src="img_slide/structure-globale-role.png"
                       alt="Visuel montrant la structure du document avec les rôles banner, navigation, search, main et contentinfo"
                     />
@@ -1670,8 +1597,14 @@
                 </div>
                 <div class="dcube-page-half-vertical_col dcube-align-center-y">
                   <div class="dcube-block">
-                    <p>Sont uniques dans la page :</p>
+                    <p>
+                      L'attribut <strong>role</strong> permet à l'utilisateur ou
+                      l'utilisatrice du lecteur d'écran de s'orinter vers les
+                      zones importantes d'une page web et à naviguer rapidement
+                      vers ces zones au sein d'un site web.
+                    </p>
                     <ul>
+                      Sont uniques dans la page :
                       <li>
                         L'attribut <code>role="banner"</code> est placé dans le
                         tag <code>header</code>
@@ -1697,7 +1630,7 @@
                       fois.
                     </p>
 
-                    <p class="font-small dcube-margin-t2">
+                    <p class="font-small dcube-border-t15 dcube-border-c4">
                       Pour en savoir plus :
                       <a
                         href="https://www.scottohara.me/blog/2018/03/03/landmarks.html"
@@ -2038,7 +1971,7 @@
           <section class="slide dcube-page-full">
             <div class="inside dcube-align-center">
               <div class="dcube-block">
-                <h3>Il n'y a pas de solution magique !</h3>
+                <h3 class="center">Il n'y a pas de solution magique !</h3>
 
                 <p>
                   Les outils de surcouche d'accessibilité web ne rendent pas
@@ -2116,7 +2049,7 @@
           <section class="slide dcube-page-full">
             <div class="inside dcube-align-center">
               <div class="dcube-block">
-                <h3>
+                <h3 class="center">
                   Référentiel général d'amélioration de l'accessibilité (RGAA)
                 </h3>
                 <p class="dcube-margin-b2 dcube-margin-t2">
@@ -2130,7 +2063,7 @@
                 >
                   Ressources :
                 </p>
-                <ul>
+                <ul class="dcube-text-tiny">
                   <li>
                     <a
                       href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/"
